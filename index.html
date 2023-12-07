@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sorteio</title>
+</head>
+<body>
+    <div class="formato">
+        <div class="esq">
+            <h3>Sorteador de Números</h3>
+            <p>Realize sorteios de Números</p>
+        </div>
+        <div class="corpo">
+            <section>
+                <h2>Sorteio</h2>
+                <form >
+                    <p>Escolha a quantidade de itens para o Sorteio:</p>
+                    <label for="valor">De</label>
+                    <input id="valor" type="number" required>
+                    <label for="outroValor">Até</label>
+                    <input id="outroValor" type="number" required>
+                    <button id="botao">Sortear</button>
+                </form>
+            </section>
+            <div class="container" id="container">
+                <p id="quantidade"></p>
+                <p id="sorteado" class="sorteado"></p>
+                <button class="btn2" id="btn2">Sortear outro Número</button>
+            </div>
+        </div>
+    </div>
+    
+   
+</body>
+<script src="script.js"></script>
+</html>
